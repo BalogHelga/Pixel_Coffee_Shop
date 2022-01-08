@@ -1,0 +1,89 @@
+
+.flTable {
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: normal;
+    border: none;
+    border-collapse: collapse;
+    width:100%;
+    background-color: white;
+    margin-top: 20px;
+    table-layout: fixed;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 1rem;
+}
+
+.flTable td, .flTable th {
+    text-align: center;
+    padding: 8px;
+    width:25%;
+
+}
+
+.flTable td {
+    border-right: 1px solid #f8f8f8;
+    font-size: 16px;
+    width: 500px;
+
+}
+
+.flTable thead th {
+    color: #ffffff;
+    background: #833315;
+}
+
+
+.flTable thead th:nth-child(odd) {
+    color: #ffffff;
+    background: #c46643;
+}
+
+.flTable tr:nth-child(even) {
+    background: #fcf2f2;
+}
+
+.flTable p{
+    color:black;
+    font:inherit;
+    font-size: 20px;
+}
+
+
+.flTable button {
+    cursor: pointer;
+    font: inherit;
+    border: none;
+    background-color: #4d1601;
+    color: white;
+    padding: 0.50rem 1rem;
+    display: flow;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 25px;
+    font-weight: bold;
+    margin-left:5px;
+
+}
+
+.flTable button:hover,
+.flTable button:active {
+    background-color: #2c0d00;
+}
+
+.flTable button:hover .badge,
+.flTable button:active .badge {
+    background-color: #92320c;
+}
+
+.h2
+{
+    text-align: center;
+    color:white;
+}
+
+.div{
+    text-align: center;
+    color:red;
+}
